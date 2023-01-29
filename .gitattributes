@@ -1,0 +1,2 @@
+jdk-17_linux-x64_bin.tar.gz filter=lfs diff=lfs merge=lfs -text
+apache-tomcat-9.0.70.tar.gz filter=lfs diff=lfs merge=lfs -text
