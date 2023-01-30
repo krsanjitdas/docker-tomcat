@@ -19,3 +19,5 @@ WORKDIR /home/tomcat/apache-tomcat-9.0.70/bin/
 EXPOSE 8080
 
 ENTRYPOINT ["/home/tomcat/apache-tomcat-9.0.70/bin/catalina.sh","run"]
+WORKDIR /home/tomcat/apache-tomcat-9.0.70/webapps/
+ADD target/CIandCD.war .
